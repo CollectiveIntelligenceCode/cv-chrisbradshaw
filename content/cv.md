@@ -28,109 +28,119 @@ Seasoned AI technology leader with 10+ years building and scaling customer-facin
 
 ## RELEVANT LEADERSHIP EXPERIENCE
 
-### Founder & CEO | The Collective Intelligence Group
-**January 2024 – Present | London, UK**
+### The Collective Intelligence Group
+**Founder & CEO**
+**Jan 2024 - Present · 1 yr 4 mos | London, England, United Kingdom**
 
-Built and lead an AI-native consulting and product company focused on deploying frontier AI systems for enterprise and startup clients across EMEA.
+AI-native consulting and product company deploying frontier AI systems for enterprise and startup clients across EMEA. Focus on LLM integration, autonomous agents, and AI strategy for C-suite executives.
 
-**Management & Team Building:**
-- Recruited and manage cross-functional team of AI architects, engineers, and consultants
-- Established technical best practices for LLM integration, deployment, and evaluation
-- Built distributed team structure supporting clients across UK, EU, and Israel markets
+**Key Initiatives:**
+- Lead technical architecture and deployment for 15+ enterprise AI transformation projects
+- Built "Paperclip AI" - autonomous company OS using multi-agent orchestration
+- Partner with London VCs and accelerators providing AI technical due diligence
+- Regular speaker at AI/ML events across London tech ecosystem
+- Created proprietary frameworks for LLM evaluation, prompt engineering, and agent design
 
-**Technical Leadership & Customer Engagement:**
-- Designed and deployed custom LLM solutions for 15+ clients spanning fintech, legal tech, and enterprise SaaS
-- Lead hands-on architecture workshops for C-suite and technical teams on AI adoption strategy
-- Developed proprietary AI agent frameworks now in production at multiple startups
-- Created "Paperclip AI" autonomous company OS—first-of-kind multi-agent orchestration platform for business operations
+**Technical Stack:** Claude API, GPT-4, LangChain, FastAPI, Next.js, pgvector, Docker
 
-**Ecosystem & Mindshare Building:**
-- Partner with London-based VCs and accelerators to provide technical due diligence on AI startups
-- Regular speaker at AI/ML meetups and startup events across London tech ecosystem
-- Published technical content on LLM deployment patterns, prompt engineering, and AI safety
-
-**Key Achievement:** Built company from 0→revenue positive in 6 months; recognized as go-to technical advisor for EMEA AI startups navigating frontier model adoption.
+**Impact:** 0→revenue positive in 6 months; recognized technical advisor for EMEA AI startups
 
 ---
 
-### Technical Founder & CTO | Solomon AI Assistant Platform
-**September 2024 – Present | London, UK**
+### Solomon
+**Technical Founder & CTO**
+**Sep 2024 - Present · 8 mos | London, England, United Kingdom**
 
-Founded and architected Solomon, an AI-native personal assistant platform demonstrating advanced LLM orchestration, RAG, and multi-modal capabilities.
+Founded and architected Solomon, an AI-native personal assistant platform demonstrating production-grade LLM orchestration, RAG, and multi-modal capabilities.
 
-**Technical Architecture & LLM Expertise:**
-- Designed and implemented production-grade RAG system using pgvector, semantic chunking, and hybrid retrieval
-- Built multi-lane intelligent routing system (think/build/do/retrieve) demonstrating advanced prompt engineering
-- Integrated Claude (Anthropic), GPT-4, and open-source models with fallback orchestration
-- Architected voice-to-voice pipeline with real-time TTS/STT and streaming responses
+**Technical Architecture:**
+- Production RAG system: pgvector, semantic chunking, hybrid retrieval
+- Multi-lane intelligent routing (think/build/do/retrieve) with advanced prompt engineering
+- Multi-model orchestration: Claude (Anthropic), GPT-4, fallback strategies
+- Voice-to-voice pipeline: real-time TTS/STT with streaming responses
+- 348 automated tests (95%+ coverage), full CI/CD pipeline
 
-**Engineering Leadership:**
-- Established full SDLC: Docker-based development, 348 automated tests (95%+ coverage), CI/CD pipeline
-- Documented comprehensive API architecture and integration patterns for external developers
-- Built extensible plugin system allowing third-party action integrations
+**Stack:** FastAPI (Python), Next.js 14, PostgreSQL + pgvector, Docker Compose, Claude Sonnet API
 
-**Stack:** FastAPI (Python), Next.js 14, PostgreSQL with pgvector, Docker Compose, Claude Sonnet API
-
-**Impact:** Demonstrates hands-on fluency with Anthropic's Claude API, production LLM deployment patterns, and ability to build AI-native products from scratch.
+**Demonstrates:** Hands-on fluency with Anthropic Claude API, production LLM deployment patterns, 0→1 AI product development
 
 ---
 
-### Founder & CEO | OpenClaw AI
-**June 2023 – December 2023 | London, UK**
+### OpenClaw
+**Founder & CEO**
+**Jun 2023 - Dec 2023 · 7 mos | London, England, United Kingdom**
 
-Founded AI automation startup focused on building intelligent agents for enterprise workflow automation using GPT-4 and Claude.
+AI automation startup building intelligent agents for enterprise workflow automation using GPT-4 and Claude.
 
-**Customer-Facing Technical Work:**
-- Lead technical discovery and architecture design with 12 enterprise prospects (£50K–£500K ACV)
-- Conducted hands-on proof-of-concept builds demonstrating ROI of AI automation
-- Delivered technical workshops on LLM limitations, safety considerations, and deployment patterns
+**Customer Engineering:**
+- Led technical discovery and architecture for 12 enterprise prospects (£50K–£500K ACV)
+- Hands-on POC builds demonstrating ROI of AI automation
+- Technical workshops on LLM limitations, safety, deployment patterns
 
 **Product Development:**
-- Built multi-agent system for document processing, data extraction, and workflow orchestration
-- Implemented robust error handling, fallback strategies, and human-in-the-loop patterns
-- Developed evaluation framework for measuring LLM output quality and reliability
+- Multi-agent system: document processing, data extraction, workflow orchestration
+- Error handling, fallback strategies, human-in-the-loop patterns
+- Evaluation framework for LLM output quality and reliability
 
-**Outcome:** Validated product-market fit with 3 pilot customers before strategic pivot to consulting model (now The Collective Intelligence Group).
+**Outcome:** Validated product-market fit with 3 pilot customers; strategic pivot to consulting (The Collective Intelligence Group)
 
 ---
 
-### VP Engineering & Co-Founder | PredictiveHire (Sapia.ai)
-**March 2016 – May 2023 | Sydney, Australia (Remote from UK 2020–2023)**
+### Sapia
+**VP Engineering & Co-Founder**
+**Mar 2016 - May 2023 · 7 yrs 3 mos | Sydney, New South Wales, Australia**
 
-Scaled ML-powered HR tech startup from seed to Series A, leading engineering through 0→$5M ARR and expansion into US and EMEA markets.
+Scaled ML-powered HR tech startup (PredictiveHire/Sapia.ai) from seed to Series A. Led engineering through 0→$5M ARR, expansion to US and EMEA markets. Company acquired 2023.
 
 **Team Building & Management:**
-- Hired and led distributed engineering team of 15+ across Australia, UK, and US
-- Managed Applied AI Engineers embedding with enterprise customers for technical implementation
-- Established engineering culture, technical standards, and mentorship programs
+- Built and led distributed engineering team of 15+ across Australia, UK, US
+- Managed Applied AI Engineers embedding with enterprise customers
+- Established engineering culture, technical standards, mentorship programs
 
 **Customer Engineering & Applied AI:**
-- Acted as Forward Deployed Engineer for strategic accounts (Unilever, Merck, Woolworths)
-- Lead technical integration workshops and training for customer teams
-- Built reusable deployment patterns reducing time-to-production from 6 weeks to 2 weeks
+- Forward Deployed Engineer for strategic accounts (Unilever, Merck, Woolworths)
+- Technical integration workshops and training for customer teams
+- Deployment patterns reducing time-to-production: 6 weeks → 2 weeks
 
 **AI/ML Product Development:**
-- Architected NLP pipeline processing 2M+ candidate assessments (BERT, GPT-2, custom models)
-- Implemented fairness-aware ML systems and bias detection frameworks
-- Built explainability layer for regulated industries (audit trails, model interpretability)
+- NLP pipeline processing 2M+ candidate assessments (BERT, GPT-2, custom models)
+- Fairness-aware ML systems and bias detection frameworks
+- Explainability layer for regulated industries (audit trails, interpretability)
 
 **GTM & Ecosystem Building:**
-- Partnered with Atlassian Ventures, Microsoft for Startups, and AWS for co-marketing
-- Presented at 20+ conferences and tech events across APAC, EMEA, and US
-- Created technical content (blog posts, whitepapers, demos) driving inbound leads
+- Partnerships: Atlassian Ventures, Microsoft for Startups, AWS
+- Presented at 20+ conferences across APAC, EMEA, US
+- Technical content (blogs, whitepapers, demos) driving inbound leads
 
-**Key Achievement:** Led technical due diligence for Series A fundraise; company acquired 2023.
+**Key Achievement:** Led technical due diligence for Series A fundraise
 
 ---
 
-### Senior Software Engineer | Various Companies
-**2012 – 2016 | Sydney, Australia**
+### Oneflare
+**Senior Software Engineer**
+**Aug 2014 - Feb 2016 · 1 yr 7 mos | Sydney, Australia**
 
-Held senior engineering roles at high-growth Australian startups, building customer-facing platforms and leading technical teams of 3–5 engineers.
+Technical lead for customer acquisition team at high-growth marketplace platform.
 
-**Notable Experience:**
-- **Oneflare (marketplace platform):** Technical lead for customer acquisition team; built A/B testing framework and ML-powered recommendation engine
-- **Freelance/Consulting:** Delivered custom software solutions for 10+ clients including real-time data pipelines and API integrations
+**Key Contributions:**
+- Built A/B testing framework for product experimentation
+- Developed ML-powered recommendation engine
+- Led technical team of 3-5 engineers
+- Architected customer-facing features serving 100K+ users
+
+---
+
+### Freelance/Consulting
+**Senior Software Engineer**
+**2012 - 2014 · 2 yrs | Sydney, Australia**
+
+Delivered custom software solutions for 10+ clients across fintech, e-commerce, and SaaS.
+
+**Notable Projects:**
+- Real-time data pipelines and API integrations
+- Customer-facing web applications
+- Database architecture and optimization
+- Technical team augmentation for startup clients
 
 ---
 
