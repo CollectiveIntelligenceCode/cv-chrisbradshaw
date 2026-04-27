@@ -11,12 +11,12 @@ export default function MarkdownRenderer({ content, className = '' }: MarkdownRe
       <ReactMarkdown
         components={{
           h1: ({ children }) => (
-            <h1 className="text-3xl font-bold font-heading text-text-primary border-b-2 border-accent-primary pb-2 mb-6">
+            <h1 className="text-3xl font-bold font-heading text-text-primary border-b-2 border-accent-purple pb-3 mb-8 transition-all duration-600">
               {children}
             </h1>
           ),
           h2: ({ children }) => (
-            <h2 className="text-2xl font-bold font-heading text-text-primary mt-8 mb-4">
+            <h2 className="text-2xl font-bold font-heading bg-gradient-to-r from-accent-purple to-accent-blue bg-clip-text text-transparent mt-10 mb-4">
               {children}
             </h2>
           ),
@@ -31,12 +31,12 @@ export default function MarkdownRenderer({ content, className = '' }: MarkdownRe
             </p>
           ),
           ul: ({ children }) => (
-            <ul className="list-disc list-inside space-y-2 mb-4 text-text-primary">
+            <ul className="list-disc list-inside space-y-2 mb-6 text-text-primary">
               {children}
             </ul>
           ),
           ol: ({ children }) => (
-            <ol className="list-decimal list-inside space-y-2 mb-4 text-text-primary">
+            <ol className="list-decimal list-inside space-y-2 mb-6 text-text-primary">
               {children}
             </ol>
           ),
@@ -46,7 +46,7 @@ export default function MarkdownRenderer({ content, className = '' }: MarkdownRe
           a: ({ href, children }) => (
             <a
               href={href}
-              className="text-accent-primary underline hover:brightness-110"
+              className="text-accent-blue underline hover:text-accent-purple transition-colors duration-250"
               target="_blank"
               rel="noopener noreferrer"
             >

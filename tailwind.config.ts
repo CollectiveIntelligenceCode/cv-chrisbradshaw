@@ -10,12 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         accent: {
-          primary: '#edc900',
+          purple: '#7a00df',
+          blue: '#0693e3',
+          green: '#00d084',
+          orange: '#ff6900',
         },
         bg: {
-          dark: '#0a0a0a',
-          elevated: '#1a1a1a',
-          surface: '#252525',
+          dark: '#000000',
+          elevated: '#313131',
+          surface: '#2b2b2b',
         },
         text: {
           primary: '#ffffff',
@@ -23,13 +26,18 @@ const config: Config = {
           secondary: '#707070',
         },
         border: {
-          DEFAULT: '#2a2a2a',
-          subtle: '#1a1a1a',
+          DEFAULT: '#313131',
+          subtle: '#2b2b2b',
         },
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        heading: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-poppins)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-poppins)', 'system-ui', 'sans-serif'],
+      },
+      transitionDuration: {
+        '250': '0.25s',
+        '600': '0.6s',
+        '1200': '1.2s',
       },
     },
   },

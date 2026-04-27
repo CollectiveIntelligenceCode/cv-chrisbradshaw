@@ -8,7 +8,7 @@ export default function DownloadButton() {
   return (
     <button
       onClick={handleDownload}
-      className="flex items-center gap-2 bg-accent-primary text-bg-dark px-6 py-3 rounded-lg font-semibold hover:brightness-110 transition-all no-print"
+      className="flex items-center gap-2 bg-[#32373c] text-text-primary px-6 py-3 rounded-lg font-semibold hover:bg-accent-purple hover:scale-105 transition-all duration-250 no-print"
       aria-label="Download as PDF"
     >
       <svg

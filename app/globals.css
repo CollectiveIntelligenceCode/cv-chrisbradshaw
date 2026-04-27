@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --accent-primary: #edc900;
-  --bg-dark: #0a0a0a;
-  --bg-elevated: #1a1a1a;
+  --accent-purple: #7a00df;
+  --accent-blue: #0693e3;
+  --accent-green: #00d084;
+  --accent-orange: #ff6900;
+  --bg-dark: #000000;
+  --bg-elevated: #313131;
+  --bg-surface: #2b2b2b;
   --text-primary: #ffffff;
   --text-muted: #a0a0a0;
 }
@@ -13,7 +17,7 @@
 body {
   background-color: var(--bg-dark);
   color: var(--text-primary);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-poppins), system-ui, sans-serif;
 }
 
 /* Print Styles */

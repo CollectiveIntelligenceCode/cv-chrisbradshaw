@@ -54,19 +54,26 @@ export default function CVTabs({ content }: CVTabsProps) {
     <div className="max-w-6xl mx-auto px-6 py-12">
       {/* Tab Navigation */}
       <nav className="flex flex-col sm:flex-row gap-4 sm:gap-8 border-b border-border mb-8 no-print">
-        {tabs.map((tab) => (
-          <button
-            key={tab.id}
-            onClick={() => handleTabClick(tab.id, tab.hash)}
-            className={`pb-4 px-2 text-lg font-semibold transition-all border-b-2 ${
-              activeTab === tab.id
-                ? 'text-text-primary border-accent-primary'
-                : 'text-text-muted border-transparent hover:text-text-primary'
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+        {tabs.map((tab, index) => {
+          const gradients = [
+            'from-accent-purple to-accent-blue',
+            'from-accent-blue to-accent-green',
+            'from-accent-green to-accent-orange',
+          ];
+          return (
+            <button
+              key={tab.id}
+              onClick={() => handleTabClick(tab.id, tab.hash)}
+              className={`pb-4 px-2 text-lg font-semibold transition-all duration-250 border-b-2 ${
+                activeTab === tab.id
+                  ? `text-text-primary border-transparent bg-gradient-to-r ${gradients[index]} bg-clip-text text-transparent`
+                  : 'text-text-muted border-transparent hover:text-text-primary'
+              }`}
+            >
+              {tab.label}
+            </button>
+          );
+        })}
       </nav>
 
       {/* Download Button */}
